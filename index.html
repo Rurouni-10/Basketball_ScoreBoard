@@ -1,15 +1,65 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css" link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div>
-                <h3>HOME</h3>
+        <div class="container-words">
+            <div class="home">
+                <h1>HOME</h1>
             </div>
-            <div>
-                <h3>GUEST</h3>
+            <div class="guest">
+                <h1>GUEST</h1>
             </div>
+        </div>
+        <div class="container-square">
+            <div class="container">
+                <h2 id="number">0</h2>
+            </div>
+            <div class="container1">
+                <h2 id="number2">0</h2>
+            </div>
+        </div>
+        <div class="plus-home">
+            <button class="button1" onclick="plusOneHome()">+1</button>
+            <button class="button2" onclick="plusTwoHome()">+2</button>
+            <button class="button3" onclick="plusThreeHome()">+3</button>
+        </div>
+        <div class="plus-guest">
+            <button class="button1" onclick="plusOneAway()">+1</button>
+            <button class="button2" onclick="plusTwoAway()">+2</button>
+            <button class="button3" onclick="plusThreeAway()">+3</button>
+        </div>
+        <div class="period-words">
+            <h2 class="period">PERIOD</h2>
+        </div>
+        <div class="container-period">
+            <h2 id="number3">0</h2>
+        </div>
+        <div class="plus-period">
+            <button class="buttonPeriod" onclick="plusOne()">+1</button>
+            
+        </div>
+        <div class="container-fouls">
+            <div class="foul1">
+                <h1>FOULS</h1>
+            </div>
+            <div class="foul2">
+                <h1>FOULS</h1>
+            </div>
+        </div>
+        <div class="container-square">
+            <div class="container">
+                <h2 id="number4">0</h2>
+            </div>
+            <div class="container1">
+                <h2 id="number5">0</h2>
+            </div>
+        </div>
+        <div class="plus-fouls">
+            <button class="buttonFoul1" onclick="plusOneFoul1()">+1</button>
+            <button class="buttonFoul2" onclick="plusOneFoul2()">+1</button>
         </div>
         <script src="index.js"></script>
     </body>

@@ -1,8 +1,190 @@
-body {
-    margin: 0;
+:root {
+    --black: #080001;
+    --white: #EEEEEE;
+    --pink: #F94F6D;
+    --light-color: #9AABD8;
+    --dark-color: #2F374D;
+
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2F374D;
 }
+
+.container-square {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.container-words {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.home{
+    color: var(--white);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 10;
+}
+.guest{
+    color: var(--white);
+    font-size: 15px;
+    font-weight: bold;    
+    
+}
+.container{
+    width: 100px;
+    height: 75px;
+    background-color: var(--black);
+    border: #F94F6D 2px solid;
+    display: flex;  
+    justify-content: center;    
+    align-items: center;
+}
+#number{
+    color: var(--pink);
+    font-size: 90px;
+    font-weight: bold; 
+}
+#number2{
+    color: var(--pink);
+    font-size: 90px;
+    font-weight: bold; 
+}
+.container1{
+    width: 100px;
+    height: 75px;
+    background-color: var(--black);
+    border: #F94F6D 2px solid;
+    display: flex;  
+    justify-content: center;    
+    align-items: center;
+}
+
+
+.plus-home{
+    display: inline-block;
+    gap: 15px;
+    margin-top: 5px;
+    position: relative;
+    left: 540;
+    top: 10;
+}
+.plus-guest{
+    display: inline-block;
+    gap: 15px;
+    margin: 5px;
+    position: relative;
+    left: 610;
+    top: 10;
+}
+.period-words{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold; 
+    position: relative;
+    left: 630;
+    top: 10;
+}
+.container-period{
+    width: 75px;
+    height: 75px;
+    background-color: var(--black);
+    border: #F94F6D 2px solid;
+    display: flex;  
+    justify-content: center;    
+    align-items: center;
+    position: relative;
+    left: 650;
+}
+#number3{
+    color: var(--pink);
+    font-size: 90px;
+    font-weight: bold; 
+}
+.plus-period{
+    display: inline-block;
+    gap: 15px;
+    margin: 5px;
+    position: relative;
+    left: 667;
+    top: 10;
+}
+.container-fouls {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.foul1{
+    color: var(--white);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 10;
+}
+.foul2{
+    color: var(--white);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    right: 8;
+}
+#number4{
+    color: var(--pink);
+    font-size: 90px;
+    font-weight: bold;
+}
+#number5{
+    color: var(--pink);
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.plus-fouls{
+    display: flex;
+    gap: 70px;
+    margin: 5px;
+    position: relative;
+    left: 610;
+    top: 10;
+}
+.buttonFoul1{
+    background-color: var(--pink);
+    color: var(--black);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 60;
+}
+
+.buttonFoul2{
+    background-color: var(--pink);
+    color: var(--black);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 12;
+}
+
